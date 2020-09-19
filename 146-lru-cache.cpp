@@ -1,4 +1,3 @@
-
 class LRUCache {
 public:
     list<int> lru;
