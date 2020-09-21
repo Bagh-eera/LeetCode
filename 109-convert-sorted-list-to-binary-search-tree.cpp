@@ -26,6 +26,11 @@ public:
         if(!head)
             return NULL;
         
+        if(!head->next){
+            TreeNode* root = new TreeNode(head->val);
+            return root;
+        }
+        
         ListNode* prevptr = NULL;
         ListNode* slowptr = head;
         ListNode* fastptr = head;
