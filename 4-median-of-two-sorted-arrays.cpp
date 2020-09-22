@@ -15,7 +15,6 @@ public:
         }
         else{
             ans = (double)(n[n.size()/2] + n[n.size()/2 - 1]) / 2;
-            // ans = ans/2;
         }
         return ans;
     }
