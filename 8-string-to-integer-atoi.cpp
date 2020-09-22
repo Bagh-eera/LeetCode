@@ -16,7 +16,6 @@ public:
             i++;
         }
     
-    
         while( i < str.length() && (str[i] >= '0') && (str[i] <= '9') ){
 
             if( result > INT_MAX/10 || ( result == INT_MAX/10 && (str[i] - '0') > INT_MAX%10)){
